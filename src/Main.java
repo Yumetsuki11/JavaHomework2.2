@@ -8,10 +8,9 @@ public class Main {
         balance = balance + addition;
 
         if (addition > 1000) {
-            bonus = addition/100;
+            bonus = addition / 100;
             balance = balance + bonus;
-        }
-        else {
+        } else {
             bonus = 0;
         }
 
